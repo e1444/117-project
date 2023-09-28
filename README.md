@@ -4,7 +4,10 @@
 [Spotify API](https://developer.spotify.com/documentation/web-api)
 
 ## Hoppscotch Example
+The following examples use Hoppscotch to test the Spotify API. Since the access token test requires both parameter and header data, which can't be shown in one screenshot, the following links are provided instead.
+
 [Requesting access token](https://hopp.sh/r/iEQUzq89H6rC)
+
 [Requesting track data](https://hopp.sh/r/9KAk1NiLXi1Z)
 
 ## Java Example

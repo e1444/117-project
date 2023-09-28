@@ -63,4 +63,4 @@ System.out.println(artistData.toString(4));
 ```
 
 ## Technical Issues
-While we have no issues with the Spotify API, it is undecided how we are going to stream audio.
+While we have no issues with the Spotify API, we have not come to a solution on how we are going to stream the audio.

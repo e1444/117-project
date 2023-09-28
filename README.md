@@ -11,6 +11,7 @@ The following examples use Hoppscotch to test the Spotify API. Since the access 
 [Requesting track data](https://hopp.sh/r/9KAk1NiLXi1Z)
 
 ## Java Example
+### Input
 ```
 String accessToken = SpotifyDemo.requestAccessToken();
 
@@ -18,7 +19,7 @@ JSONObject artistData = SpotifyDemo.requestArtistData(accessToken, "3ICflSq6ZgYA
 System.out.println(artistData.toString(4));
 ```
 
-Output:
+### Output
 ```
 {
     "images": [
@@ -60,3 +61,6 @@ Output:
     "uri": "spotify:artist:3ICflSq6ZgYAIrm2CTkfVP"
 }
 ```
+
+## Technical Issues
+While we have no issues with the Spotify API, it is undecided how we are going to stream audio.

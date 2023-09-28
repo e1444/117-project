@@ -3,6 +3,10 @@
 ## API Documentation
 [Spotify API](https://developer.spotify.com/documentation/web-api)
 
+## Hoppscotch Example
+[Requesting access token](https://hopp.sh/r/iEQUzq89H6rC)
+[Requesting track data](https://hopp.sh/r/9KAk1NiLXi1Z)
+
 ## Java Example
 ```
 String accessToken = SpotifyDemo.requestAccessToken();

@@ -6,7 +6,6 @@
 ## Java Example
 ```
 String accessToken = SpotifyDemo.requestAccessToken();
-System.out.println(accessToken);
 
 JSONObject artistData = SpotifyDemo.requestArtistData(accessToken, "3ICflSq6ZgYAIrm2CTkfVP");
 System.out.println(artistData.toString(4));
@@ -14,7 +13,6 @@ System.out.println(artistData.toString(4));
 
 Output:
 ```
-BQCGQ7mWR7MJ1JBYQJikRuUINM6k4WP2UyN5rEkcWkE4Hr98oWGzi09oLrmnBam-dOQidclu5kBxQOcDyExEZG3rLxKwheoQaiFFpG4VYkZPcBntzVI
 {
     "images": [
         {

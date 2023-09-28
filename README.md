@@ -1,5 +1,8 @@
 # Spotify API demo
 
+## Problem Domain
+Our problem domain is focused on making a trivia game. At a high level we were planning on creating a multiplayer game where one person is selected to sing a song in front of the other players and said players would have to guess what song the singer is singing. The person selected as the singer will have the option to pick one of the three randomized songs which will be retrieved from the Spotify API. 
+
 ## API Documentation
 [Spotify API](https://developer.spotify.com/documentation/web-api)
 
@@ -63,4 +66,6 @@ System.out.println(artistData.toString(4));
 ```
 
 ## Technical Issues
-While we have no issues with the Spotify API, we have not come to a solution on how we are going to stream the audio.
+While we have no issues with the Spotify API, we have not come to a solution on how we are going to stream the audio. Our approach are as follows:
+- To record the singer’s audio, we are planning on using the MediaStream Recording API.
+- If this does not work, our alternative is to use the Discord API to make this game in the form of a Discord bot. 
